@@ -1,0 +1,4 @@
+git clone https://github.com/reveny/Android-Ptrace-Injector.git
+cd Android-Ptrace-Injector
+ndk-build (Add ndk-build to your env variables)
+adb push Injector /data/local/tmp
